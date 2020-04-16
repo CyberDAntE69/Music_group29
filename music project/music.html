@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Player-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">
+
+    <title>MUSIC PROJECT</title>
+    <link rel="shortcut icon" type="image/png" href="images/musicicon.png">
+    <style>
+       body{
+        background-color: #f5f5f5;
+        font-family: Open sans;
+       }
+       img{
+        width: 100%;
+        min-height: :100px;
+       }
+       .main{
+        padding: 40px 0;
+       }
+       .col-md-3{
+        margin-bottom: 40px;
+       }
+       .album-poster{
+         position: relative;
+         display: block;
+         border-radius: 20px;
+         box-shadow: 0 15px 35px #3d2173a1;
+         transition: all ease 0.4s;
+       }
+       .album-poster:hover{
+        box-shadow: none;
+        transform: scale(0.98) translateY(5px);
+       }
+       h3{
+        font-size: 35px;
+        margin-bottom: 5px;
+        border-bottom: 5px solid #575454;
+        padding-bottom: 15px;
+       }
+       p{
+        font-size: 15px;
+       }
+       h4{
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 15px;
+        font-weight: 700;
+       }
+      .aplayer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-shadow: 0 -4px 4px #dadada;
+        transition: all ease 0.5s;
+      }
+       /* custom Player */
+       span{
+        color: #0c0c !important
+        font-size: 15px;
+       }
+       .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded{
+        background: #0f0f0f;
+        height: 5px;
+       }
+       .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played{
+        background: #2197C3 !important;
+        height: 5px;
+       }
+       .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb{
+        background-color: #2197C3 !important;
+       }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Muxix</h1>
+    </center>
+       
+   
+<div class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>English</h3>
+      </div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="0"><img  src="images\Illuminate.png" alt=""></a>
+      <h4>Illuminate</h4>
+      <p>Shawn Mendes - Treat You Better</p></div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="1"><img  src="images\Mean It.jpg" alt=""></a>
+      <h4>How I am Feeling</h4>
+      <p>Lauv&LANY - Mean It</p></div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="2"><img  src="images\Bad Girl.jpg" alt=""></a>
+      <h4>BB STEPS</h4>
+      <p>BBno$ ft.Bains</p></div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="3"><img  src="images\Godzilla.jpg" alt=""></a>
+      <h4>Music to Be Murdered By</h4>
+      <p>Eminem ft.Juice Wrld - Godzilla</p></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Japanese</h3>
+      </div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="4"><img  src="images\Lemon.jpg" alt=""></a>
+      <h4>Lemon</h4>
+      <p>Yonezu Kenshi-Lemon</p></div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="5"><img  src="images\fireworks.jpg" alt=""></a>
+      <h4>Fireworks</h4>
+      <p>Daoko x Kenshi Yonezu-Fireworks</p></div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="6"><img  src="images\Gurenge.jpg" alt=""></a>
+      <h4>kimetsu no Yaiba</h4>
+      <p>LiSa - Gurenge</p></div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="7"><img  src="images\Peace sign.jpg" alt=""></a>
+      <h4>Boku no Hero Academia</h4>
+      <p>Kenshi yonezu - Peace Sign</p></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Hindi</h3>
+      </div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="8"><img  src="images\Liggi.jpg" alt=""></a>
+      <h4>Liggi</h4>
+      <p>Ritviz-Liggi</p></div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="9"><img  src="images\Challa.jpg" alt=""></a>
+      <h4>Challa</h4>
+      <p>Jab Tak hai jaan-Challa</p></div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="10"><img  src="images\Sage.jpg" alt=""></a>
+      <h4>Sage</h4>
+      <p>Ritviz - Sage</p></div>
+      <div class="col-md-3">
+      <a href="javascript:void();" class="album-poster" data-switch="11"><img  src="images\Sadda Haq.jpg" alt=""></a>
+      <h4>Rockstar</h4>
+      <p>Rockstar-Sadda Haq</p></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Top Songs</h3>
+      </div>
+        <div class="col-md-3">
+        <a href="javascript:void();" class="album-poster" data-switch="12"><img src="images\Roxanne.png" alt=""></a>
+        <h4>Roxanne</h4>
+        <p>Arizona Zervas - Roxanne</p>
+      </div>
+        <div class="col-md-3">
+        <a href="javascript:void();" class="album-poster" data-switch="13"><img src="images\HighHopes.jpg" alt=""></a>
+        <h4>High Hopes</h4>
+        <p>P@TD - High Hopes</p>
+      </div>
+        <div class="col-md-3">
+        <a href="javascript:void();" class="album-poster" data-switch="14"><img src="images\WhatMakesYouBeautiful.jpg" alt=""></a>
+        <h4>What makes You Beautiful</h4>
+        <p>1D - What Makes You Beautiful</p>
+      </div>
+        <div class="col-md-3">
+        <a href="javascript:void();" class="album-poster" data-switch="15"><img src="images\Blink.jpg" alt=""></a>
+        <h4>Blink</h4>
+        <p>Back Number - Blink</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <div id="aplayer"></div>
+    <!-- jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- player jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+
+    <script>
+      $(".album-poster").on('click',function(e){
+        var dataswitchID = $(this).attr('data-switch');
+        console.log(dataswitchID);
+        ap.list.switch(dataswitchID );
+        ap.play();
+        $("aplayer").addclass('showPlayer')
+
+      });
+      const ap = new APlayer({
+          container: document.getElementById('aplayer'),
+          listFolded:true,
+          audio: [
+          {
+              name: 'Treat You Better',
+              artist: 'Shawn Mendes',
+              url: 'songs/Treat You Better.mp3',
+              cover: 'images/Illuminate.png'
+          },
+           {
+              name: 'Mean It',
+              artist: 'Lauv&LANY',
+              url: 'songs/Mean It.mp3',
+              cover: 'images/Mean It.jpg'
+          },
+          {
+              name: 'Bad Girl',
+              artist: 'BBno$ ft.Bains',
+              url: 'songs/Bad Girl.mp3',
+              cover: 'images/Bad Girl.jpg'
+          },
+          {
+              name: 'Godzilla',
+              artist: 'Eminem ft.Juice Wrld',
+              url: 'songs/Godzilla.mp3',
+              cover: 'images/Godzilla.jpg'
+          },
+          {
+              name: 'Lemon',
+              artist: 'Yonezu Kenshi',
+              url: 'songs/Lemon.mp3',
+              cover: 'images/Lemon.jpg'
+          },
+          {
+              name: 'Fireworks',
+              artist: 'Daoko X Kenshi Yonezu',
+              url: 'songs/Fireworks.mp3',
+              cover: 'images/fireworks.jpg'
+          },
+          {
+              name: 'Gurenge',
+              artist: 'LiSa',
+              url: 'songs/Gurenge.mp3',
+              cover: 'images/Gurenge.jpg'
+          },
+          {
+              name: 'Peace Sign',
+              artist: 'Yonezu Kenshi',
+              url: 'songs/Peace Sign.mp3',
+              cover: 'images/Peace Sign.jpg'
+          },
+          {
+              name: 'Liggi',
+              artist: 'Ritviz',
+              url: 'songs/Liggi.mp3',
+              cover: 'images/Liggi.jpg'
+          },
+          {
+              name: 'Challa',
+              artist: 'Jab Tak hai jaan',
+              url: 'songs/Challa.mp3',
+              cover: 'images/Challa.jpg'
+          },
+          {
+              name: 'Sage',
+              artist: 'Ritviz',
+              url: 'songs/Sage.mp3',
+              cover: 'images/Sage.jpg'
+          },
+          {
+              name: 'Sadda Haq',
+              artist: 'Rockstar',
+              url: 'songs/Sadda Haq.mp3',
+              cover: 'images/Sadda Haq.jpg'
+          },
+          {
+              name: 'Roxanne',
+              artist: 'Arizona Zervas',
+              url: 'songs/Roxanne.mp3',
+              cover: 'images/Roxanne.png'
+          },
+          {
+              name: 'High Hopes',
+              artist: 'P@TD/Brendon Urie',
+              url: 'songs/HighHopes.mp3',
+              cover: 'images/HighHopes.jpg'
+          },
+          {   name: 'What Makes You Beautiful',
+              artist: '1 Direction',
+              url: 'songs/WhatMakesYouBeautiful.mp3',
+              cover: 'images/WhatMakesYouBeautiful.jpg'
+          },
+          {
+              name: 'Blink',
+              artist: 'Back Number',
+              url: 'songs/Blink.mp3',
+              cover: 'images/Blink.jpg'
+          }
+          ]
+      });
+
+    </script>
+
+  </body>
+</html>

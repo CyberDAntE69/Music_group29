@@ -1,0 +1,30 @@
+body{
+	font-family: 'Nunito', sans-serif !important ;
+	background-color: #f5f5f5 !important;
+}
+/*----------------------root default styles*/
+.blue{
+	background-color: blue;
+	color: white;
+	border: none;
+}   
+
+.red{
+	background-color: #ee0979;
+	color: white;
+	border: none;
+}
+/*----------------------------changes for login form*/
+.ch_bold{
+	font-weight: 700;
+}
+.ch_psition{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+/*=------error font size*/
+.ch_error{
+	font-size: 0.8rem !important;
+}
